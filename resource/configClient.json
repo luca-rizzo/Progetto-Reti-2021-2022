@@ -1,0 +1,8 @@
+{
+  "serverIP" : "localhost",
+  "listenSocketPort" : 6789,
+  "serverRegistryPort" : 6788,
+  "rmiobjectbindingName" : "RMI-WINSERV",
+  "nameOfNetworkInterfaceDevice" : "wlxa09f10beb7bf"
+}  
+

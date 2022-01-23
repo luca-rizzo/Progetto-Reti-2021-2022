@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <ScrollPane prefHeight="281.0" prefWidth="388.0" BorderPane.alignment="CENTER">
+         <content>
+            <VBox fx:id="feedPostVbox" prefHeight="309.0" prefWidth="393.0" style="-fx-background-color: grey;" />
+         </content>
+      </ScrollPane>
+   </left>
+   <top>
+      <TextField alignment="TOP_CENTER" promptText="YOUR FEED" text="YOUR FEED" BorderPane.alignment="TOP_CENTER">
+         <font>
+            <Font name="FreeSerif" size="20.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </TextField>
+   </top>
+   <right>
+      <AnchorPane prefHeight="275.0" prefWidth="214.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="22.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Users with same interests" />
+            <ScrollPane layoutX="14.0" layoutY="49.0" prefHeight="205.0" prefWidth="209.0">
+               <content>
+                  <VBox fx:id="listUsersVbox" prefHeight="192.0" prefWidth="203.0" />
+               </content>
+            </ScrollPane>
+            <Text fx:id="usernameTagText" layoutX="16.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="206.0" />
+            <Text fx:id="followResult" layoutX="22.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="193.06396484375" />
+         </children>
+      </AnchorPane>
+   </right>
+   <bottom>
+      <Pane prefHeight="41.0" prefWidth="600.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="blogButton" layoutY="2.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="199.0" text="BLOG" />
+            <Button fx:id="refreshFeedButton" layoutX="202.0" layoutY="2.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="191.0" text="FEED" />
+            <Button fx:id="accountButton" layoutX="395.0" layoutY="2.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="204.0" text="ACCOUNT" />
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>

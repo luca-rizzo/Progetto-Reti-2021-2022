@@ -1,0 +1,130 @@
+{
+  "users" : [ {
+    "username" : "aa",
+    "password" : "aa",
+    "tags" : [ ],
+    "wallet" : {
+      "transactions" : [ ]
+    },
+    "followers" : [ ],
+    "following" : [ ],
+    "blog" : [ {
+      "idPost" : 1,
+      "title" : "sadasda",
+      "author-username" : "aa",
+      "iteration" : 3,
+      "content" : "sadasdsa",
+      "reactions" : [ ]
+    } ]
+  }, {
+    "username" : "q",
+    "password" : "q",
+    "tags" : [ ],
+    "wallet" : {
+      "transactions" : [ ]
+    },
+    "followers" : [ ],
+    "following" : [ ],
+    "blog" : [ ]
+  }, {
+    "username" : "s",
+    "password" : "s",
+    "tags" : [ ],
+    "wallet" : {
+      "transactions" : [ ]
+    },
+    "followers" : [ ],
+    "following" : [ ],
+    "blog" : [ ]
+  }, {
+    "username" : "v",
+    "password" : "v",
+    "tags" : [ "calcio" ],
+    "wallet" : {
+      "transactions" : [ "0.23912 2022-01-19 11:37:17.391 Curator of post: 2" ]
+    },
+    "followers" : [ ],
+    "following" : [ {
+      "username" : "mario",
+      "tags" : [ "calcio" ]
+    } ],
+    "blog" : [ {
+      "idPost" : 2,
+      "title" : "oggi",
+      "author-username" : "mario",
+      "iteration" : 3,
+      "content" : "ciao",
+      "reactions" : [ {
+        "type" : 1,
+        "content" : "sdfsdfsd",
+        "author" : "v",
+        "isNew" : false
+      }, {
+        "type" : 1,
+        "content" : "sdfsdfsd",
+        "author" : "v",
+        "isNew" : false
+      }, {
+        "type" : 0,
+        "rate" : 1,
+        "author" : "v",
+        "isNew" : false
+      } ]
+    } ]
+  }, {
+    "username" : "franco",
+    "password" : "f",
+    "tags" : [ "calcio" ],
+    "wallet" : {
+      "transactions" : [ ]
+    },
+    "followers" : [ ],
+    "following" : [ ],
+    "blog" : [ ]
+  }, {
+    "username" : "mario",
+    "password" : "m",
+    "tags" : [ "calcio" ],
+    "wallet" : {
+      "transactions" : [ "0.55796 2022-01-19 11:37:17.386 Author of post: 2" ]
+    },
+    "followers" : [ {
+      "username" : "v",
+      "tags" : [ "calcio" ]
+    } ],
+    "following" : [ ],
+    "blog" : [ {
+      "idPost" : 2,
+      "title" : "oggi",
+      "author-username" : "mario",
+      "iteration" : 3,
+      "content" : "ciao",
+      "reactions" : [ {
+        "type" : 1,
+        "content" : "sdfsdfsd",
+        "author" : "v",
+        "isNew" : false
+      }, {
+        "type" : 1,
+        "content" : "sdfsdfsd",
+        "author" : "v",
+        "isNew" : false
+      }, {
+        "type" : 0,
+        "rate" : 1,
+        "author" : "v",
+        "isNew" : false
+      } ]
+    } ]
+  }, {
+    "username" : "l",
+    "password" : "l",
+    "tags" : [ ],
+    "wallet" : {
+      "transactions" : [ ]
+    },
+    "followers" : [ ],
+    "following" : [ ],
+    "blog" : [ ]
+  } ]
+}

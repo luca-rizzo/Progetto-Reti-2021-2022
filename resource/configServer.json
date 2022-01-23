@@ -1,0 +1,13 @@
+{
+  "multicastAddress" : "239.254.0.0",
+  "multicastPort" : 5555,
+  "registryPort" : 6788,
+  "rmiobjectbindingName" : "RMI-WINSERV",
+  "ip" : "localhost",
+  "tcpport" : 6789,
+  "timerRewardMin" : 5,
+  "authorPercentage" : 70,
+  "timerBackupMin" : 7,
+  "backupJsonFile" : "./resource/usersResourceBackup.json",
+  "nWorker" : 5
+}
